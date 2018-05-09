@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.authors               = { 'Tap Payments' => 'hello@tap.company', 'CardIO' => 'support@paypal.com' }
     spec.homepage              = 'https://github.com/Tap-Payments/CardIODynamic-iOS'
     spec.source                = { :git => 'https://github.com/Tap-Payments/CardIODynamic-iOS.git', :tag => spec.version.to_s }
-    spec.preserve_paths        = 'Carthage/Checkouts/card.io-iOS-source/LICENSE.md'
+    spec.preserve_paths        = 'Carthage/Build/iOS/LICENSE.md'
     spec.source_files          = 'CardIODynamic/CardIODynamic.h'
     spec.vendored_framework    = 'Carthage/Build/iOS/CardIO.framework'
     
